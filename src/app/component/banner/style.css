@@ -1,0 +1,101 @@
+.bannerWrapper{
+        width: 100%;
+        height: 560px; /* Adjust height as needed */
+        background-image: url('../../assets/images/farmar.png'); /* Replace with your image URL */
+        background-size: cover; /* Ensures the image covers the entire banner */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Text color inside the banner */
+        margin-top: -150px;
+}
+.bannerWrapper .cardWrapper {
+    display: flex;
+    /* justify-content: end; */
+    align-content: flex-start;
+    gap: 20px;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+.banner .cardWrapper {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    margin-top: -106px;
+    margin-bottom: 50px;
+}
+.banner .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .bannerWrapper p:last-of-type {
+    margin-top: 0;
+    max-width: 650px;
+    margin-bottom: 1rem;
+    margin: 6px 0px 1px 0px;
+    font-size: 15px;
+ 
+}
+.bannerWrapper button, .bannerWrapper button:hover {
+    background-color: #4BAF47;
+    color: #fff;
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+}
+    
+
+.cover-by-grace {
+    font-size: 45px;
+    font-family: 'Playfair Display', 'Georgia', serif; 
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 6px 0px 1px 0px;
+    max-width: 650px;
+    font-style: italic; /* Optional: Make the font italic */
+    margin-top: 10px; /* Correcting typo 'marginop' to 'margin-top' */
+}
+.card-body .imageWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerCard > span:first-of-type{
+        font-family: '__Covered_By_Your_Grace_27467d', '__Covered_By_Your_Grace_Fallback_27467d';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        color: #EEC044;
+    
+}
+.card-body > h2:first-of-type{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #EEC044;
+
+}
+.cardHeading {
+    display: flex;
+    justify-content: center; /* Centers the child items horizontally */
+    align-items: center; /* Centers the child items vertically */
+    flex-wrap: wrap; /* Allows wrapping of child items if needed */
+    margin-bottom: 10px;
+  }
+  
+  .cardHeading span {
+    width: 200px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,69 @@
+.socialBar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .socialMediaGroup,
+  .telephoneWrapper, 
+  .emailWrapper,
+  .locationWrapper {
+    display: flex;
+  }
+  
+  .telephonecontainer p,
+  .emailContainer p,
+  .locationContainer p,
+  .telephonecontainer span,
+  .emailContainer span,
+  .locationContainer span {
+    margin: 0;
+  }
+  
+  .telephonecontainer span,
+  .emailContainer span,
+  .locationContainer span {
+    font-weight: bold;
+  }
+  
+  .emailWrapper {
+    align-items: center;
+    position: relative;
+    padding: 0 20px; /* Space for the vertical lines */
+  }
+  
+  .emailWrapper::before,
+  .emailWrapper::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(
+      to bottom, 
+      rgba(135, 134, 128, 0), 
+      rgba(135, 134, 128, 0.5), 
+      rgba(135, 134, 128, 0)
+    );
+  }
+  
+  .emailWrapper::before {
+    left: 0;
+  }
+  
+  .emailWrapper::after {
+    right: 0;
+  }
+  
+  .emailContainer {
+    display: flex;
+    gap: 10px; /* Space between icon and text */
+    align-items: center;
+  }
+  
+  .emailInfo p,
+  .emailInfo span {
+    margin: 0;
+  }
+  

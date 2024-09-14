@@ -1,0 +1,101 @@
+.serviceWrapper{
+    margin-top: 70px;
+    background-color: #F8F7F0;
+    max-height: 620px;
+
+}
+.serviceWrapper .serviceContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceWrapper .cardWrapper{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-top: 20px;
+}
+.serviceCardHeading{
+    margin-top: 20px;
+}
+.serviceCardHeading span {
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.productDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardWrapper .card-body{
+    background-color: #ffff;
+    padding: 0px;
+}
+.productDescription p {
+    font-size: 12px;
+    color: #878680;
+    background-color: white;
+}
+.serviceContainer > p:first-of-type{
+    /* Add your styles here */
+    color: #EEC044; /* Example: change text color to blue */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.cardWrapper .card{
+    width: 18rem;
+  border: 2px solid white; /* White border around the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  border-radius: 8px; /* Optional: Adds slight rounding to the corners */
+  overflow: hidden;
+}
+.cardbody .imageWrapper{
+    position: relative;
+}
+.imageWrapper .Imageicon {
+    position: absolute;
+    bottom: -29px;
+    right: 6px;
+    /* background-color: white; */
+    border-radius: 50%;
+    padding: 5px;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+.card-body .text-wrapper {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* background: red; */
+    padding-left: 24px;
+    /* width: 291px; */
+}
+.sectionWrapper {
+    background-image: url(/_next/static/media/sections.0192c7f3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 70px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.sectionContent {
+    background-color: #4BAF47;
+    max-height: 120px;
+    width: 882px;
+    margin-top: -50px;
+    border-radius: 5px;
+    display: flex;
+    color: #ffff;
+    justify-content: space-around;
+    align-items: center;
+}
