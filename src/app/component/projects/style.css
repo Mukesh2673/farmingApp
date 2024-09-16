@@ -1,0 +1,39 @@
+.projectContainer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,322px);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-column-gap: 8px;
+    grid-row-gap:8px;
+    height: 420px;
+}
+.projectsWrapper {
+    margin-top: 50px;
+    height: 750px;
+}
+.projectsWrapper  p{
+    /* Add your styles here */
+    color: #EEC044; /* Example: change text color to blue */
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.projectsWrapper  h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+/* For tablets and small screens */
+@media (max-width: 1024px) {
+    .projectContainer {
+      grid-template-columns: repeat(2, 1fr); /* Adjust columns to 2 on medium screens */
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 600px) {
+    .projectContainer {
+      grid-template-columns: repeat(1, 1fr); /* Stack columns vertically on small screens */
+      grid-column-gap: 0; /* Remove gap for better alignment */
+    }
+  }
