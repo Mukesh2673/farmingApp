@@ -40,3 +40,28 @@ a {
     color-scheme: dark;
   }
 }
+@media (min-width: 992px){
+  .loginModal .modal-lg, .modal-xl {
+    --bs-modal-width: 650px!important;
+}
+.otpModal .modal-lg, .modal-xl {
+  --bs-modal-width: 500px!important;
+}
+
+}
+.loginModal .modal-dialog .modal-content .modalFooter.modal-footer{
+  margin-right: 20px;
+  
+}
+
+.registerModal .modal-dialog .modal-content .modalFooter.modal-footer button,
+.loginModal .modal-dialog .modal-content .modalFooter.modal-footer button
+{
+  border: none;
+  cursor: pointer;
+  background: none;
+  text-decoration: underline;
+  font-size: 25px;
+  color: black;
+  
+}

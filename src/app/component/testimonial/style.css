@@ -1,0 +1,136 @@
+.testimonialWrapper.container {
+    display: grid;
+    grid-template-columns: 370px 430px;
+    grid-template-rows: 10px 20px;
+    grid-column-gap: 50px;
+    height: 430px;
+}
+.description button{
+    width: 20px;
+}
+.description button,.textColumn button, .description button:hover {
+    width: 170px;
+    height: 50px;
+    background: #4BAF47;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    display: block;
+}
+.testimonialWrapper{
+    background-color: #F8F7F0;
+    margin-top: 60px;
+}
+.testimonials span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.testimonialUser{
+    display: grid;
+    justify-content: space-between;
+    grid-template-rows: 20px
+    
+}
+.testimonialDescription #title{
+    color:#EEC044
+}
+#star {
+    display: inline-block;
+    background-image: url('../../assets/icons/start.png'); /* Assuming this is the correct path */
+    background-repeat: repeat-x; /* Repeat the background horizontally */
+    width: 100px; /* Adjust the width to fit 5 stars */
+    height: 20px; /* Adjust the height based on your star image */
+    background-size: 20px 20px; /* Set the size of one star (20px by 20px) */
+  }
+  .testimonialUser,.testimonialsContainer {
+    display: grid;
+    grid-template-columns: 2fr auto; /* One flexible column and one auto-sized column */
+    align-items: center; /* Vertically center content */
+    grid-column-gap: 20px;
+    width: 360px;
+}
+/* sections */
+
+.testimonailImage {
+    width: 100px; /* Set the width of the circle */
+    height: 100px; /* Set the height of the circle */
+    border-radius: 50%; /* Makes the div circular */
+    border: 2px dotted #EEC044; /* Dotted border with black color */
+   /* Optional: To center the text inside the circle */
+   position: relative;  
+}
+
+  .testimonailImage::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; /* Positions the small circle at the bottom of the parent circle */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the small circle horizontally */
+    width: 30px; /* Small circle width */
+    height: 30px; /* Small circle height */
+    border-radius: 50%; /* Makes it a perfect circle */
+    background-color: green; /* Green background for the small circle */
+  /* Optional: Add a border to the small circle */
+  }
+  .chooseUsbannerWrapper {
+    display: grid;
+    grid-template-columns: 60% auto;
+    justify-items: center;
+    /* align-items: center; */
+    grid-auto-flow: row;
+    padding-top: 40px;
+}
+.imageColumns img {
+    width: 400px;
+    height: 600px;
+}
+.textColumn  .__className_27467d {
+        font-family: '__Covered_By_Your_Grace_27467d', '__Covered_By_Your_Grace_Fallback_27467d';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 33px;
+        color: #EEC044;
+    }
+    .textColumn h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .listWrapper {
+        margin: 20px auto;
+        max-width: 800px; /* Limits the width for better readability */
+      }
+      
+      .featureTable {
+        width: 100%;
+        border-collapse: collapse; /* Removes space between cells */
+      }
+      
+      .featureTable td {
+        padding: 15px;
+        vertical-align: top;
+      }
+      
+      .featureTable h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+      }
+      
+      .featureTable p {
+        margin: 0;
+        color: #666;
+        font-size: 0.9rem;
+      }
+      
+      .cardImage {
+        width: 30px; /* Customize image size */
+        height: auto;
+      }
+      
+      @media (max-width: 600px) {
+        .featureTable td {
+          display: block;
+          width: 100%;
+        }
+      }
+      

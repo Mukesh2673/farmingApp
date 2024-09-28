@@ -13,7 +13,7 @@
     
 
 }
- .introductionText button, button:hover {
+ .introductionText button, .introductionText button:hover {
     background-color: #4BAF47;
     color: #fff;
     height: 50px;
@@ -33,22 +33,27 @@
 .custom-list {
     list-style: none; /* Remove default bullets */
     padding-left: 0; /* Remove left padding */
-    margin: 20px;
+    margin: 20px 0;
   }
   
   .custom-list li {
     position: relative;
-    padding-left: 30px; /* Space for the icon */
+    padding-left: 40px; /* Space for the icon */
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Spacing between items */
   }
   
   .custom-list li::before {
-    content: url('../../assets/icons/tickIcon.png'); /* Custom icon URL */
+    content: ''; /* Empty content as we are using background-image */
     position: absolute;
     left: 0;
-    top: 0;
-    transform: translateY(4px); /* Adjust vertically */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+    background-image: url('../../assets/icons/tickIcon.png'); /* Set custom icon as background */
+    background-size: 20px 20px; /* Adjust the icon size */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    width: 20px; /* Set the width for the icon */
+    height: 20px; /* Set the height for the icon */
   }
   .introductionText > p:first-of-type{
     /* Add your styles here */

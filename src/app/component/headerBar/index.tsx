@@ -1,9 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/app/home/style.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Image from 'next/image';
 import logo from '@/app/assets/icons/logo.png'
 import fbIcon from '@/app/assets/icons/socialIcon/facebook.png'

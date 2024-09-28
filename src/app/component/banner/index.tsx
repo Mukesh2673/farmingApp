@@ -2,16 +2,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/app/component/banner/style.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Image from 'next/image';
 import featureImage1 from '@/app/assets/images/featureImage1.png'
 import featureImage2 from '@/app/assets/images/featureImage2.png'
 import featureImage3 from '@/app/assets/images/featureImage3.png'
-
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import { Covered_By_Your_Grace } from 'next/font/google';
 
 const coveredByYourGrace = Covered_By_Your_Grace({

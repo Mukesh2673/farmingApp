@@ -1,0 +1,38 @@
+.modalCustom .modal-dialog {
+    max-width: 400px!important;
+  }
+  
+  .modalBody {
+    padding: 40px; /* Extra padding for body content */
+  }
+  .customForm {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+  .inputField {
+    border-radius: 4px; /* Rounded corners for inputs */
+    border: 1px solid #ced4da; /* Border color */
+  }
+  
+  .inputField:focus {
+    border-color: #007bff; /* Focus border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+  }
+  
+  .submitButton {
+    background-color: #343a40; /* Dark background for the button */
+    border: none; /* Remove border */
+  }
+  
+  .submitButton:hover {
+    background-color: #23272b; /* Darker shade on hover */
+  }
+  .loginContainer{
+    height: 50vh;
+  }
